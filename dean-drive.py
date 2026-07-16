@@ -18,17 +18,17 @@ drivetrain.reset_encoder_position()
 imu.reset()
 
 # Print Heading 
-print("Heading:", imu.get_heading())
+print("Current YAW:", imu.get_yaw())
 
 # Drive for Under 42 cm
 while drivetrain.get_left_encoder_position() < 42:
-    drivetrain.straight(30,0.50)
+    drivetrain.straight(30,0.5)
 
 # Stop Driving
 drivetrain.stop()
 
 # Print Heading Again
-print("Heading:", imu.get_heading())
+print("Current YAW:", imu.get_yaw())
 
 
 
