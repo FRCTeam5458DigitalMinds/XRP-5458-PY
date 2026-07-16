@@ -5,20 +5,17 @@ from time import sleep
 #      imu, rangefinder, reflectance, servo_one, board, webserver
 # Write your code Here
 
-# Wait for User Button Press
 board.wait_for_button()
 
-# Time to Get Away Before Movement
 sleep(1)
 
-# Reset Encoder
 drivetrain.reset_encoder_position()
 
-# Drive for 30 cm
-while drivetrain.get_left_encoder_position() < 30:
-    # Set Speed (Right Wheel is Slower)
-    drivetrain.set_speed(10,20)
+while drivetrain.get_left_encoder_position() < 20:
+    drivetrain.set_speed(30,30)
+    
+drivetrain.reset_encoder_position()
 
-# Stop Driving
-drivetrain.stop()
-
+while drivetrain.get_left_encoder_position() > -10:
+     drivetrain.set_speed(-30,-30)
+     
