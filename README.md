@@ -12,3 +12,6 @@ A collection of FRC Team 5458's XRP Python scripts.
 - [XRP User Guide](https://xrpusersguide.readthedocs.io/en/latest/course/introduction.html)
 - [XRPLib - MicroPython](https://open-stem.github.io/XRP_MicroPython/index.html)
 - [XRP Movement Guide Using The XRP Code Editor](https://www.youtube.com/watch?v=jHKAQSRTRaM)
+- [MicroPython: XRP Controller Firmware](https://micropython.org/download/SPARKFUN_XRP_CONTROLLER/)
+- [SparkFun: XRP Hardware Overview](https://docs.sparkfun.com/SparkFun_XRP_Controller/single_page/)
+- [MicroBlocks: Run Pilot](https://microblocks.fun/run-pilot/microblocks.html)
